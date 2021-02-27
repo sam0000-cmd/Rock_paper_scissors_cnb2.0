@@ -1,0 +1,122 @@
+*{
+    box-sizing: content-box;
+}
+body {
+    background:#f3c955;
+    font-family:'Concert One',cursive;
+  }
+  div.content{
+      display:block;
+      
+      text-align: center;
+    
+  }
+  .navbar{
+      text-align: left;
+      display:flex;
+      justify-content: space-between;
+  }
+img.logobar{
+    width:75px;
+    height:auto;
+}
+img.logobar1{
+    width:50px;
+    height:auto;
+}
+img.plwithtrump{
+    width:400px;
+    height:auto;
+    display:inline-block;
+}
+div.subcontent1{
+  text-align: center;
+}
+div.subcontent{
+  display:flex;
+  justify-content: space-between;
+}
+div.subcontent p{
+  display:inline;
+}
+
+  button {
+    background:#0cb3b9;
+    border: 5px solid white;
+    top:100px;
+    font-size: 20px;
+    width:150px;
+    font-size:3rem;
+    color:white;
+    border-radius: 50%;
+    height:150px;
+    padding: 10px 20px;
+    position: relative;
+    animation-name: shake;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    cursor: pointer;
+    
+   
+  }
+  #plagain{
+    background: #0cb3b9;
+    padding:15px;
+    border:none;
+    border-radius:10px;
+    text-decoration:none;
+    color:white;
+    margin:0px auto 0px auto;
+
+  }
+  #yeye{
+    height:50%;
+    width:auto;
+  }
+  div.subcontent{
+    width:50%;
+    height:auto;
+    margin:0px auto 0px auto;
+  }
+  div.allo{
+    display:none;
+  }
+  p.timer{
+    font-size:5rem;
+    color:white;
+  }
+  p.result{
+    font-size:5rem;
+    color:white;
+    
+  }
+  p.subtitles{
+    font-size: 1.5rem;
+    color:rgb(0, 0, 0);
+  }
+  button:hover {
+    animation-name: shakeAnim;
+  }
+  
+  @keyframes shakeAnim {
+    0% {left: 0}
+    1% {left: -3px}
+    2% {left: 5px}
+    3% {left: -8px}
+    4% {left: 8px}
+    5% {left: -5px}
+    6% {left: 3px}
+    7% {left: 0}
+  }
+  
+  @keyframes shake {
+    0% {left: 0}
+    1% {left: -3px}
+    2% {left: 5px}
+    3% {left: -8px}
+    4% {left: 8px}
+    5% {left: -5px}
+    6% {left: 3px}
+    7% {left: 0}
+  }
